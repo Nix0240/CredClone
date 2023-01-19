@@ -28,7 +28,7 @@ const ScreenText = ({ screen, setCurrentImg, i }) => {
         observer.unobserve(ref.current);
       }
     };
-  }, []);
+  });
 
   return (
     <div
@@ -44,6 +44,7 @@ const ScreenText = ({ screen, setCurrentImg, i }) => {
               src={screen.mobile_img}
               className="mobile-screen-img slide-in-right "
               key={screen.mobile_img}
+              alt="Failed to fetch img"
             />
           </div>
         </div>

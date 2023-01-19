@@ -12,7 +12,8 @@
 
 @media all and (max-width:767) {
   .button-wrapper {
-    font-size: 18px;
-    padding: 16px 24px;
+    font-size: 16px;
+      padding: 14px 20px;
+      font-weight: 600;
   }
 }
