@@ -4,7 +4,7 @@
   color: var(--bg-black);
   font-size: 24px;
   font-weight: 700;
-  padding: 20px 65px;
+  padding: 18px 40px;
   border-radius: 40px;
   width: max-content;
 
@@ -13,7 +13,7 @@
 @media all and (max-width:767) {
   .button-wrapper {
     font-size: 16px;
-      padding: 14px 20px;
-      font-weight: 600;
+      padding: 14px 16px;
+        font-weight: 400;
   }
 }
